@@ -17,3 +17,7 @@ body {
   font-style: normal;
   background-color: rgb(236, 236, 236);
 }
+
+nav a.active {
+  @apply bg-primary text-white
+}
